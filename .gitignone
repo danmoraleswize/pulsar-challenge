@@ -1,0 +1,24 @@
+*.DS_Store*
+/backend/venv
+.vscode/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
