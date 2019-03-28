@@ -1,0 +1,7 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:art="http://www.dowjones.com/article#" xmlns:sig="http://www.dowjones.com/signal#" xmlns:com="http://www.dowjones.com/company#" xmlns:keywd="http://www.dowjones.com/keyword#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  
+    
+      <rdf:Description rdf:about="http://www.dowjones.com/signal#17310612"><art:article_id rdf:resource="http://www.dowjones.com/article#WCWOIL0020190228ef2100004"/><art:article_id rdf:resource="http://www.dowjones.com/article#WCIINM0020190228ef2s001pe"/><art:article_id rdf:resource="http://www.dowjones.com/article#ATENER0020190228ef2s000e8"/><art:article_id rdf:resource="http://www.dowjones.com/article#WCIINM0020190301ef31000lz"/></rdf:Description><rdf:Description rdf:about="http://www.dowjones.com/signal#17315675"><art:article_id rdf:resource="http://www.dowjones.com/article#WSJO000020190301ef2s0005l"/><art:article_id rdf:resource="http://www.dowjones.com/article#DJDN000020190228ef2s005hz"/><art:article_id rdf:resource="http://www.dowjones.com/article#DJDN000020190301ef310003g"/><art:article_id rdf:resource="http://www.dowjones.com/article#DJGPRW0020190301ef3100011"/><art:article_id rdf:resource="http://www.dowjones.com/article#DJDN000020190301ef3100059"/><art:article_id rdf:resource="http://www.dowjones.com/article#RTNW000020190301ef310002b"/><art:article_id rdf:resource="http://www.dowjones.com/article#DJDN000020190301ef31000es"/></rdf:Description>
+    
+  
+</rdf:RDF>

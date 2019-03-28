@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SignalList>
+  <SignalDoc action="rep" mode="Auto" subscription="Monthly" fromDate="2019-02-01T00:00:00" toDate="2019-02-28T23:59:59" version="1.8.0.1" createdby="Signal_SelectPublisher" createDateTime="2019-03-01T05:28:44" masterSignalCount="26391">
+    <Entity type="DJManagementChange" name="signal">
+      <ActiveSignals>
+        <MasterSignal id="17310612" currentAwarenessDate="2019-03-01T02:30:00" lowerExtractionDate="2019-01-28T00:00:00" upperExtractionDate="2019-04-26T00:00:00" createDate="2019-02-28T08:40:25" confidenceRange="High" confidenceLevel="100" status="Active">
+          <Properties>
+            <Property>
+              <Name>Person</Name>
+              <Value>Sheila Khama</Value>
+            </Property>
+            <Property>
+              <FCode>TULOIL</FCode>
+              <Name>Organization</Name>
+              <Value>Tullow Oil PLC</Value>
+            </Property>
+            <Property>
+              <Name>Title</Name>
+              <Value>non-executive directors</Value>
+            </Property>
+            <Property>
+              <Name>Title category</Name>
+              <Value>Director</Value>
+            </Property>
+            <Property>
+              <Name>Action</Name>
+              <Value>Entering</Value>
+            </Property>
+          </Properties>
+          <Articles>
+            <Article AccessionNo="WCWOIL0020190228ef2100004" PublicationDate="2019-02-01" SourceName="World Oil">
+              <Headline>Tullow has appointed Sheila Khama, Genevieve Sangudi as non-executive directors</Headline>
+              <Detection>
+                <Phrases>
+                  <Phrase>Tullow has appointed Sheila Khama, Genevieve Sangudi as non-executive directors</Phrase>
+                  <Phrase>Separately, after almost nine years on the Board, Tutu Agyare will resign as a non-executive director, with effect from the conclusion of the 2019 AGM.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>will resign</Keyword>
+                  <Keyword>has appointed</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+            <Article AccessionNo="WCIINM0020190228ef2s001pe" PublicationDate="2019-02-28">
+              <Detection>
+                <Phrases>
+                  <Phrase>Tullow Oil has appointed Sheila Khama and Genevieve Sangudi to its board as non-executive directors.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>has appointed</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+            <Article AccessionNo="ATENER0020190228ef2s000e8" PublicationDate="2019-02-28">
+              <Detection>
+                <Phrases>
+                  <Phrase>Genevieve joined Carlyle in 2011 and played a lead role in launching Carlyle's maiden Sub-Saharan Africa fund, including fundraising, strategy, origination and execution.</Phrase>
+                  <Phrase>Tullow Oil plc (Tullow) is pleased to announce the appointment of Sheila Khama and Genevieve Sangudi as non-executive Directors of Tullow with effect from 26 April 2019 following Tullow's Annual General Meeting (AGM) on 25 April 2019.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>joined</Keyword>
+                  <Keyword>the appointment</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+            <Article AccessionNo="WCIINM0020190301ef31000lz" PublicationDate="2019-03-01" />
+          </Articles>
+          <Companies>
+            <Company>
+              <FCode>TULOIL</FCode>
+              <CompanyName>Tullow Oil PLC</CompanyName>
+              <PropertyValue>Tullow Oil PLC</PropertyValue>
+            </Company>
+          </Companies>
+          <Executives>
+            <Executive>
+              <FirstName>Sheila</FirstName>
+              <LastName>Khama</LastName>
+              <FullName>Sheila Khama</FullName>
+              <PropertyValue>Sheila Khama</PropertyValue>
+            </Executive>
+          </Executives>
+        </MasterSignal>
+        <MasterSignal id="17315675" currentAwarenessDate="2019-03-01T00:00:00" lowerExtractionDate="2019-02-28T00:00:00" upperExtractionDate="2019-02-28T00:00:00" createDate="2019-02-28T23:58:39" confidenceRange="Medium" confidenceLevel="81" status="Active">
+          <Properties>
+            <Property>
+              <Name>Person</Name>
+              <Value>Gabriel Benincasa</Value>
+            </Property>
+            <Property>
+              <FCode>SEEXC</FCode>
+              <Name>Organization</Name>
+              <Value>Securities and Exchange Commission</Value>
+            </Property>
+            <Property>
+              <Name>Title</Name>
+              <Value>chief risk officer</Value>
+            </Property>
+            <Property>
+              <Name>Title category</Name>
+              <Value>Chief Risk Officer</Value>
+            </Property>
+            <Property>
+              <Name>Action</Name>
+              <Value>Entering</Value>
+            </Property>
+          </Properties>
+          <Articles>
+            <Article AccessionNo="WSJO000020190301ef2s0005l" PublicationDate="2019-02-28" SourceName="The Wall Street Journal Online">
+              <Headline>After Hack, SEC Names Its First Chief Risk Officer; Gabriel Benincasa is expected to help identify and mitigate risks following 2016 breach of filings database</Headline>
+              <Detection>
+                <Phrases>
+                  <Phrase>The Securities and Exchange Commission on Thursday said Gabriel Benincasa would become the regulator's first chief risk officer.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>would become</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+            <Article AccessionNo="DJDN000020190228ef2s005hz" PublicationDate="2019-02-28" />
+            <Article AccessionNo="DJDN000020190301ef310003g" PublicationDate="2019-03-01" />
+            <Article AccessionNo="DJGPRW0020190301ef3100011" PublicationDate="2019-03-01" />
+            <Article AccessionNo="DJDN000020190301ef3100059" PublicationDate="2019-03-01" />
+            <Article AccessionNo="RTNW000020190301ef310002b" PublicationDate="2019-03-01" />
+            <Article AccessionNo="DJDN000020190301ef31000es" PublicationDate="2019-03-01" />
+          </Articles>
+          <Companies>
+            <Company>
+              <FCode>SEEXC</FCode>
+              <CompanyName>Securities and Exchange Commission</CompanyName>
+              <PropertyValue>Securities and Exchange Commission</PropertyValue>
+            </Company>
+          </Companies>
+          <Executives>
+            <Executive>
+              <FirstName>Gabriel</FirstName>
+              <LastName>Benincasa</LastName>
+              <FullName>Gabriel Benincasa</FullName>
+              <PropertyValue>Gabriel Benincasa</PropertyValue>
+            </Executive>
+          </Executives>
+        </MasterSignal>
+      </ActiveSignals>
+    </Entity>
+  </SignalDoc>
+</SignalList>

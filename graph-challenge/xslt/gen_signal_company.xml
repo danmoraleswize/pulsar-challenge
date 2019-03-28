@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:art="http://www.dowjones.com/article#"
+                xmlns:sig="http://www.dowjones.com/signal#"
+                xmlns:com="http://www.dowjones.com/company#"
+                xmlns:keywd="http://www.dowjones.com/keyword#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <xsl:template match="/">
+      <rdf:RDF>
+          <xsl:apply-templates/>
+      </rdf:RDF>
+  </xsl:template>
+
+  <xsl:template match="ActiveSignals">
+    <xsl:for-each select="MasterSignal">
+      <xsl:variable name="signalId"><xsl:value-of select="@id"/></xsl:variable>
+      <rdf:Description rdf:about="http://www.dowjones.com/signal#{$signalId}">
+        <xsl:for-each select="Companies/Company">
+            <xsl:variable name="companyFCode"><xsl:value-of select="FCode"/></xsl:variable>
+            <com:companyFCode rdf:resource="http://www.dowjones.com/company#{$companyFCode}"></com:companyFCode>
+            <com:name><xsl:value-of select="CompanyName"/></com:name>
+        </xsl:for-each>
+      </rdf:Description>
+    </xsl:for-each>
+  </xsl:template>
+</xsl:stylesheet>
+
+
+<!--               <sig:confidence><xsl:value-of select="@confidenceLevel"/></sig:confidence>
+              <sig:range><xsl:value-of select="@confidenceRange"/></sig:range>
+              <sig:status><xsl:value-of select="@status"/></sig:status>
+
+              <xsl:for-each select="Articles/Article">
+                  <xsl:variable name="articleId"><xsl:value-of select="@AccessionNo"/></xsl:variable>
+                  <art:article_id rdf:resource="/article#{$articleId}">
+                      <art:date><xsl:value-of select="@PublicationDate"/></art:date>
+                      <art:source><xsl:value-of select="@SourceName"/></art:source>
+                  </art:article_id>
+                  <xsl:for-each select="Detection/Keywords">
+                      <art:keyword><xsl:value-of select="Keyword"/></art:keyword>
+                  </xsl:for-each>
+                  <xsl:for-each select="Detection/Phrases">
+                      <art:phrase><xsl:value-of select="Phrase"/></art:phrase>
+                  </xsl:for-each>
+              </xsl:for-each>
+              <xsl:for-each select="Companies/Company">
+                  <xsl:variable name="companyFCode"><xsl:value-of select="FCode"/></xsl:variable>
+                  <com:companyFCode rdf:resource="/company#{$companyFCode}"></com:companyFCode>
+                  <com:name><xsl:value-of select="CompanyName"/></com:name>
+              </xsl:for-each> -->
+          <!-- </sig:signal_id> -->

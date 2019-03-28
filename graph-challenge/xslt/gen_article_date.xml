@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:art="http://www.dowjones.com/article#"
+                xmlns:sig="http://www.dowjones.com/signal#"
+                xmlns:com="http://www.dowjones.com/company#"
+                xmlns:keywd="http://www.dowjones.com/keyword#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <xsl:template match="/">
+      <rdf:RDF>
+          <xsl:apply-templates/>
+      </rdf:RDF>
+  </xsl:template>
+
+  <xsl:template match="ActiveSignals">
+    <xsl:for-each select="MasterSignal">
+        <xsl:for-each select="Articles/Article">
+            <xsl:variable name="articleId"><xsl:value-of select="@AccessionNo"/></xsl:variable>
+            <rdf:Description rdf:about="http://www.dowjones.com/article#{$articleId}">
+                <xsl:variable name="publicationDate"><xsl:value-of select="@PublicationDate"/></xsl:variable>                
+                <art:date rdf:resource="http://www.dowjones.com/date#{$publicationDate}"></art:date>
+            </rdf:Description>
+        </xsl:for-each>
+    </xsl:for-each>
+  </xsl:template>
+</xsl:stylesheet>

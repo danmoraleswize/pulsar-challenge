@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SignalList>
+  <SignalDoc action="rep" mode="Auto" subscription="Monthly" fromDate="2019-02-01T00:00:00" toDate="2019-02-28T23:59:59" version="1.8.0.1" createdby="Signal_SelectPublisher" createDateTime="2019-03-01T05:24:16" masterSignalCount="10690">
+    <Entity type="DJMergerAcquisition" name="signal">
+      <ActiveSignals>
+        <MasterSignal id="17315141" currentAwarenessDate="2019-03-01T00:00:00" lowerExtractionDate="2019-03-01T00:00:00" upperExtractionDate="9999-12-31T00:00:00" createDate="2019-02-28T21:34:05" confidenceRange="Medium" confidenceLevel="85" status="Active">
+          <Properties>
+            <Property>
+              <Name>Organization</Name>
+              <Value>Wimmera Football League</Value>
+            </Property>
+            <Property>
+              <Name>Organization</Name>
+              <Value>Wimmera Netball Association</Value>
+            </Property>
+            <Property>
+              <Name>Type</Name>
+              <Value>Merger</Value>
+            </Property>
+            <Property>
+              <Name>Status</Name>
+              <Value>Rumored</Value>
+            </Property>
+          </Properties>
+          <Articles>
+            <Article AccessionNo="FWIMER0020190228ef310000c" PublicationDate="2019-03-01" SourceName="Wimmera Mail Times">
+              <Headline>Five-person panel assembled to discuss Wimmera league merger</Headline>
+              <Detection>
+                <Phrases>
+                  <Phrase>An independent committee will discuss the logistics of a merger between the Wimmera Netball Association and Wimmera Football League.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>merger</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+          </Articles>
+          <Companies>
+            <Company>
+              <CompanyName>Wimmera Football League</CompanyName>
+              <PropertyValue>Wimmera Football League</PropertyValue>
+            </Company>
+            <Company>
+              <CompanyName>Wimmera Netball Association</CompanyName>
+              <PropertyValue>Wimmera Netball Association</PropertyValue>
+            </Company>
+          </Companies>
+        </MasterSignal>
+        <MasterSignal id="17314141" currentAwarenessDate="2019-03-01T00:00:00" lowerExtractionDate="2019-03-07T00:00:00" upperExtractionDate="9999-12-31T00:00:00" createDate="2019-02-28T19:50:06" confidenceRange="Medium" confidenceLevel="72" status="Active">
+          <Properties>
+            <Property>
+              <Name>Organization</Name>
+              <Value>NHAI</Value>
+            </Property>
+            <Property>
+              <Name>Organization</Name>
+              <Value>Surathkal</Value>
+            </Property>
+            <Property>
+              <Name>Type</Name>
+              <Value>Merger</Value>
+            </Property>
+            <Property>
+              <Name>Status</Name>
+              <Value>Planned</Value>
+            </Property>
+          </Properties>
+          <Articles>
+            <Article AccessionNo="WCTHIND020190228ef2s002pc" PublicationDate="2019-02-28" SourceName="The Hindu">
+              <Headline>Exemption for local vehicles from toll to continue at Surathkal</Headline>
+              <Detection>
+                <Phrases>
+                  <Phrase>"In the meeting on Thursday it was proposed to merge the Surathkal toll plaza with the NHAI toll plaza in Brahmarakudlu (near B.C. Road)," he added.</Phrase>
+                </Phrases>
+                <Keywords>
+                  <Keyword>merge</Keyword>
+                </Keywords>
+              </Detection>
+            </Article>
+            <Article AccessionNo="THINDU0020190301ef310006d" PublicationDate="2019-03-01" />
+          </Articles>
+          <Companies>
+            <Company>
+              <CompanyName>NHAI</CompanyName>
+              <PropertyValue>NHAI</PropertyValue>
+            </Company>
+            <Company>
+              <CompanyName>Surathkal</CompanyName>
+              <PropertyValue>Surathkal</PropertyValue>
+            </Company>
+          </Companies>
+        </MasterSignal>
+      </ActiveSignals>
+    </Entity>
+  </SignalDoc>
+</SignalList>
